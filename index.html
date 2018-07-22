@@ -9,6 +9,8 @@
                 <canvas id="canvas" width="700" height="700" style="border:1px solid #d3d3d3;"></canvas>
             </div>
             <div class="flex-item">
+                <input type="radio" name="segment_type" value="line" checked="checked">Line<br>
+                <input type="radio" name="segment_type" value="dot">Dot<br>
                 Radius: <input type="number" id="radius" name="Radius"><br>
                 Number of segments: <input type="number" id="no_segments" name="no_segments"><br>
                 <button type="button" onclick="draw_divide_circle()">Draw</button><br>
